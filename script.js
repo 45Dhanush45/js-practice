@@ -196,4 +196,67 @@
 // console.log(person);
 
 
+//cloning a object
+// let user = {
+//     name:"dhanush",
+//     age:19
+// }
+// console.log(user);
+
+// let another = {
+//     ...user
+// }
+
+// console.log(another);
+
+
     
+
+// js array indepth
+
+
+// let fruit = ["apple","orange","bannana"]
+// console.log(fruit);
+// console.log(fruit[3]);
+
+// fruit[4] = "gauva"
+
+//three methods of array
+// let number = [1,2,3]
+// console.log(Number);
+// //  * push
+//    Number.push(4,5)
+
+// //  *unshift
+//   Number.unshift(6,7)
+
+// //  *spice
+//   Number.splice(3, 8,9)
+
+
+
+//find an element in reference type in array
+
+// const orders = [
+//     {id:1, item:"mobile", quantity:3},
+//     {id:2, item:"headset", quantity:4},
+//     {id:3, item:"charger", quantity:1},
+//     {id:4, item:"battary", quantity:66}
+// ]
+
+// let gadjets = orders.find((order) => {
+//     return order.item === "headset"
+// })
+
+// console.log(gadjets);
+
+
+
+//for Each 
+
+// const routine = ["wake up","eat","sleep"]
+
+// routine.forEach((daily) => {
+//     console.log(daily);
+
+// })
